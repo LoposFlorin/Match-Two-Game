@@ -1,5 +1,8 @@
 << Memory Tiles >>
 
+-- code along tutorial @freeCodeCamp / JS Tutorials --
+
+
 How to play:
 
 * click on any card to flip it over to see the symbol
@@ -8,11 +11,5 @@ How to play:
 * uncover all symbols to win the game
 
 
--- code along tutorial @freeCodeCamp / JS Tutorials --
 
-
-Final part of tutorial will manage code refactoring.
-
-
-
-** My own touch to develop the app further (add timer, more tiles, leaderboard ...), will be added at some point ಠ_ಠ ** 
+** My own touch to develop the app further (add timer, more tiles ...), will be added at some point ಠ_ಠ **
