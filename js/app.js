@@ -54,9 +54,11 @@ function resetBoard() {
   [firstCard, secondCard] = [null, null];
 }
 
-/*
-shuffle function needs to be added
-game has the same layout everytime
-*/
+(function shuffle() {
+  cards.forEach(card => {
+    let randomPos = Math.floor(Math.random() * 12);
+    card.style.order = randomPos;
+  });
+})();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
